@@ -1,0 +1,5 @@
+body{ 
+	background: url(/bento/scms/images/loading.gif) 50% 50% no-repeat;
+	min-width: 100%;
+	min-height: 100%;
+}

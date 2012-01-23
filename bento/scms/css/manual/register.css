@@ -1,0 +1,40 @@
+/* Body */
+.content{
+	margin-top: 80px;
+}
+form{
+	text-align: center;	
+}
+input[type=text]{
+	margin-bottom: 10px;	
+}
+input[type=text],input[type=password]{
+	text-align: center;	
+}
+label{
+	display: block;
+	font-weight: bold;
+	float: none;
+	width: 100%;
+	text-align: center;
+}
+input[type="button"].red.close{
+	display: none;	
+	visibility:hidden;
+}
+div.content div.buttons, 
+div.content span.buttons, 
+span.content div.buttons, 
+span.content span.buttons {
+	margin: 20px 0 0 0;
+}
+div.buttons input{
+	width: 220px;	
+}
+div.buttons input[type=submit].button{
+	margin: 40px auto 40px auto;	
+	display: block;
+}
+#password_strength {
+	margin-left: 50px !important;
+}

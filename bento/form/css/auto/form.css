@@ -1,0 +1,23 @@
+.bento_form_container{
+  height: 35px;
+  width: 35px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 10002;
+  overflow: visible;
+}
+.bento_form_loading {
+	min-height:40px;
+	width: 100%;
+	display:none;
+	top: 0;
+}
+.bento_form_loading.black{
+	background:url(/bento/form/images/black.gif) no-repeat;
+	margin: 5px 0 0 5px;
+}
+.bento_form_loading.white{
+	background:url(/bento/form/images/white.gif) no-repeat;
+	margin: 5px 0 0 5px;
+}

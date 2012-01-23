@@ -1,0 +1,844 @@
+.buttons {
+    padding-bottom: 20px;
+    clear: both;
+	display: block;
+}
+.buttons input[type=button].button, .buttons input[type=submit].button {
+	margin: 0px;
+	height: 28px;
+	top: -1px;
+}
+input[type=button].button, input[type=submit].button {
+    color: #6e6e6e;
+    font: bold 12px Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    padding: 5px 12px;
+    position: relative;
+    display: inline-block;
+    text-shadow: 0 1px 0 #fff;
+    -webkit-transition: border-color .218s;
+    -moz-transition: border .218s;
+    -o-transition: border-color .218s;
+    transition: border-color .218s;
+    background: #f3f3f3;
+    background: -webkit-gradient(linear,0% 40%,0% 70%,from(#F5F5F5),to(#F1F1F1));
+    background: -moz-linear-gradient(linear,0% 40%,0% 70%,from(#F5F5F5),to(#F1F1F1));
+    border: solid 1px #dcdcdc;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+	margin-right: 20px;
+	border-color: rgba(153, 153, 153, .5);
+}
+input[type=button].button:hover, input[type=submit].button:hover {
+    color: #333;
+    border-color: #999;
+    -moz-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2) -webkit-box-shadow:0 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+}
+input[type=button].button:active, input[type=submit].button:active  {
+    color: #000;
+    border-color: #444;
+}
+input[type=button].left, input[type=submit].left {
+    -webkit-border-top-right-radius: 0;
+    -moz-border-radius-topright: 0;
+    border-top-right-radius: 0;
+    -webkit-border-bottom-right-radius: 0;
+    -moz-border-radius-bottomright: 0;
+    border-bottom-right-radius: 0;
+    margin: 0;
+}
+input[type=button].middle, input[type=submit].middle {
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-left: solid 1px #f3f3f3;
+    margin: 0;
+    border-left: solid 1px rgba(255, 255, 255, 0);
+}
+input[type=button].middle:hover, input[type=submit].middle:hover,
+input[type=button].right:hover, input[type=submit].right:hover { 
+	border-left: solid 1px #999 
+}
+input[type=button].right, input[type=submit].right {
+    -webkit-border-top-left-radius: 0;
+    -moz-border-radius-topleft: 0;
+    border-top-left-radius: 0;
+    -webkit-border-bottom-left-radius: 0;
+    -moz-border-radius-bottomleft: 0;
+    border-bottom-left-radius: 0;
+    border-left: solid 1px #f3f3f3;
+    border-left: solid 1px rgba(255, 255, 255, 0);
+}
+
+input[type=button].blue, input[type=submit].blue {
+	color: #7090C8;
+	border: 1px solid #3079ED !important;	
+	background: #4B8DF8;
+	background: -webkit-linear-gradient(top, #4C8FFD, #4787ED);
+	background: -moz-linear-gradient(top, #4C8FFD, #4787ED);
+	background: -ms-linear-gradient(top, #4C8FFD, #4787ED);
+	background: -o-linear-gradient(top, #4C8FFD, #4787ED);	
+	-webkit-transition: border .20s;
+	-moz-transition: border .20s;
+	-o-transition: border .20s;
+	transition: border .20s;
+}
+input[type=button].blue:hover, input[type=submit].blue:hover  {
+	border: 1px solid #2F5BB7 !important;	
+	background: #3F83F1;
+	background: -webkit-linear-gradient(top, #4D90FE, #357AE8);
+	background: -moz-linear-gradient(top, #4D90FE, #357AE8);
+	background: -ms-linear-gradient(top, #4D90FE, #357AE8);
+	background: -o-linear-gradient(top, #4D90FE, #357AE8);
+}
+input[type=button].green, input[type=submit].green {
+	border: 1px solid #29691D !important;
+	background: #3A8E00;
+	background: -webkit-linear-gradient(top, #3C9300, #398A00);
+	background: -moz-linear-gradient(top, #3C9300, #398A00);
+	background: -ms-linear-gradient(top, #3C9300, #398A00);
+	background: -o-linear-gradient(top, #3C9300, #398A00);	
+	-webkit-transition: border .20s;
+	-moz-transition: border .20s;
+	-o-transition: border .20s;
+	transition: border .20s;
+}
+input[type=button].green:hover, input[type=submit].green:hover {
+	border: 1px solid #2D6200 !important;	
+	background: #3F83F1;
+	background: -webkit-linear-gradient(top, #3C9300, #368200);
+	background: -moz-linear-gradient(top, #3C9300, #368200);
+	background: -ms-linear-gradient(top, #3C9300, #368200);
+	background: -o-linear-gradient(top, #3C9300, #368200);
+}
+input[type=button].red, input[type=submit].red {
+	border: 1px solid #D14836 !important;	
+	background: #D64937;
+	background: -webkit-linear-gradient(top, #DC4A38, #D14836);
+	background: -moz-linear-gradient(top, #DC4A38, #D14836);
+	background: -ms-linear-gradient(top, #DC4A38, #D14836);
+	background: -o-linear-gradient(top, #DC4A38, #D14836);	
+	-webkit-transition: border .20s;
+	-moz-transition: border .20s;
+	-o-transition: border .20s;
+	transition: border .20s;
+}
+input[type=button].red:hover, input[type=submit].red:hover {
+	border: 1px solid #B0281A !important;	
+	background: #D14130;
+	background: -webkit-linear-gradient(top, #DC4A38, #C53727);
+	background: -moz-linear-gradient(top, #DC4A38, #C53727);
+	background: -ms-linear-gradient(top, #DC4A38, #C53727);
+	background: -o-linear-gradient(top, #DC4A38, #C53727);
+}
+input[type=button].black, input[type=submit].black {
+	color: #7090C8;
+	border: 1px solid #3079ED !important;	
+	background: #4B8DF8;
+	background: -webkit-linear-gradient(top, #4C8FFD, #4787ED);
+	background: -moz-linear-gradient(top, #4C8FFD, #4787ED);
+	background: -ms-linear-gradient(top, #4C8FFD, #4787ED);
+	background: -o-linear-gradient(top, #4C8FFD, #4787ED);	
+	-webkit-transition: border .20s;
+	-moz-transition: border .20s;
+	-o-transition: border .20s;
+	transition: border .20s;
+}
+input[type=button].black:hover, input[type=submit].black:hover  {
+	border: 1px solid #2F5BB7 !important;	
+	background: #3F83F1;
+	background: -webkit-linear-gradient(top, #4D90FE, #357AE8);
+	background: -moz-linear-gradient(top, #4D90FE, #357AE8);
+	background: -ms-linear-gradient(top, #4D90FE, #357AE8);
+	background: -o-linear-gradient(top, #4D90FE, #357AE8);
+}
+
+input[type=button].blue, input[type=submit].blue {
+	color: #FFF !important;
+	text-shadow: 0 1px 0 #2F5BB7 !important;
+}
+input[type=button].green, input[type=submit].green {
+	color: #FFF !important;
+	text-shadow: 0 1px 0 #2D6200 !important;
+}
+input[type=button].red, input[type=submit].red {
+	color: #FFF !important;
+	text-shadow: 0 1px 0 #B0281A !important;
+}
+input[type=button].big, input[type=submit].big {font-size:16px; padding:10px 15px;}
+input[type=button].supersize, input[type=submit].supersize {font-size:20px; padding:15px 20px;}
+
+/*------------------------------------*\
+	$BUTTON ICON
+\*------------------------------------*/
+input[type=button].icon1, input[type=submit].icon1,
+input[type=button].icon2, input[type=submit].icon2,
+input[type=button].icon3, input[type=submit].icon3,
+input[type=button].icon4, input[type=submit].icon4,
+input[type=button].icon5, input[type=submit].icon5,
+input[type=button].icon6, input[type=submit].icon6,
+input[type=button].icon7, input[type=submit].icon7,
+input[type=button].icon8, input[type=submit].icon8,
+input[type=button].icon9, input[type=submit].icon9,
+input[type=button].icon10, input[type=submit].icon10,
+input[type=button].icon11, input[type=submit].icon11,
+input[type=button].icon12, input[type=submit].icon12,
+input[type=button].icon13, input[type=submit].icon13,
+input[type=button].icon14, input[type=submit].icon14,
+input[type=button].icon15, input[type=submit].icon15,
+input[type=button].icon16, input[type=submit].icon16,
+input[type=button].icon17, input[type=submit].icon17,
+input[type=button].icon18, input[type=submit].icon18,
+input[type=button].icon19, input[type=submit].icon19,
+input[type=button].icon20, input[type=submit].icon20,
+input[type=button].icon21, input[type=submit].icon21,
+input[type=button].icon22, input[type=submit].icon22,
+input[type=button].icon23, input[type=submit].icon23,
+input[type=button].icon24, input[type=submit].icon24,
+input[type=button].icon25, input[type=submit].icon25,
+input[type=button].icon26, input[type=submit].icon26,
+input[type=button].icon27, input[type=submit].icon27,
+input[type=button].icon28, input[type=submit].icon28,
+input[type=button].icon29, input[type=submit].icon29,
+input[type=button].icon30, input[type=submit].icon30,
+input[type=button].icon31, input[type=submit].icon31,
+input[type=button].icon32, input[type=submit].icon32,
+input[type=button].icon33, input[type=submit].icon33,
+input[type=button].icon34, input[type=submit].icon34,
+input[type=button].icon35, input[type=submit].icon35,
+input[type=button].icon36, input[type=submit].icon36,
+input[type=button].icon37, input[type=submit].icon37,
+input[type=button].icon38, input[type=submit].icon38,
+input[type=button].icon39, input[type=submit].icon39,
+input[type=button].icon40, input[type=submit].icon40,
+input[type=button].icon41, input[type=submit].icon41,
+input[type=button].icon42, input[type=submit].icon42,
+input[type=button].icon43, input[type=submit].icon43,
+input[type=button].icon44, input[type=submit].icon44,
+input[type=button].icon45, input[type=submit].icon45,
+input[type=button].icon46, input[type=submit].icon46,
+input[type=button].icon47, input[type=submit].icon47,
+input[type=button].icon48, input[type=submit].icon48,
+input[type=button].icon49, input[type=submit].icon49,
+input[type=button].icon50, input[type=submit].icon50,
+input[type=button].icon51, input[type=submit].icon51,
+input[type=button].icon52, input[type=submit].icon52,
+input[type=button].icon53, input[type=submit].icon53,
+input[type=button].icon54, input[type=submit].icon54,
+input[type=button].icon55, input[type=submit].icon55,
+input[type=button].icon56, input[type=submit].icon56,
+input[type=button].icon57, input[type=submit].icon57,
+input[type=button].icon58, input[type=submit].icon58,
+input[type=button].icon59, input[type=submit].icon59,
+input[type=button].icon60, input[type=submit].icon60,
+input[type=button].icon61, input[type=submit].icon61,
+input[type=button].icon62, input[type=submit].icon62,
+input[type=button].icon63, input[type=submit].icon63,
+input[type=button].icon64, input[type=submit].icon64,
+input[type=button].icon65, input[type=submit].icon65,
+input[type=button].icon66, input[type=submit].icon66,
+input[type=button].icon67, input[type=submit].icon67,
+input[type=button].icon68, input[type=submit].icon68,
+input[type=button].icon69, input[type=submit].icon69,
+input[type=button].icon70, input[type=submit].icon70,
+input[type=button].icon71, input[type=submit].icon71,
+input[type=button].icon72, input[type=submit].icon72,
+input[type=button].icon73, input[type=submit].icon73,
+input[type=button].icon74, input[type=submit].icon74,
+input[type=button].icon75, input[type=submit].icon75,
+input[type=button].icon76, input[type=submit].icon76,
+input[type=button].icon77, input[type=submit].icon77,
+input[type=button].icon78, input[type=submit].icon78,
+input[type=button].icon79, input[type=submit].icon79,
+input[type=button].icon80, input[type=submit].icon80,
+input[type=button].icon81, input[type=submit].icon81,
+input[type=button].icon82, input[type=submit].icon82,
+input[type=button].icon83, input[type=submit].icon83,
+input[type=button].icon84, input[type=submit].icon84,
+input[type=button].icon85, input[type=submit].icon85,
+input[type=button].icon86, input[type=submit].icon86,
+input[type=button].icon87, input[type=submit].icon87,
+input[type=button].icon88, input[type=submit].icon88,
+input[type=button].icon89, input[type=submit].icon89,
+input[type=button].icon90, input[type=submit].icon90,
+input[type=button].icon91, input[type=submit].icon91,
+input[type=button].icon92, input[type=submit].icon92,
+input[type=button].icon93, input[type=submit].icon93,
+input[type=button].icon94, input[type=submit].icon94,
+input[type=button].icon95, input[type=submit].icon95,
+input[type=button].icon96, input[type=submit].icon96,
+input[type=button].icon97, input[type=submit].icon97,
+input[type=button].icon98, input[type=submit].icon98,
+input[type=button].icon99, input[type=submit].icon99,
+input[type=button].icon100, input[type=submit].icon100,
+input[type=button].icon101, input[type=submit].icon101,
+input[type=button].icon102, input[type=submit].icon102,
+input[type=button].icon103, input[type=submit].icon103,
+input[type=button].icon104, input[type=submit].icon104,
+input[type=button].icon105, input[type=submit].icon105,
+input[type=button].icon106, input[type=submit].icon106,
+input[type=button].icon107, input[type=submit].icon107,
+input[type=button].icon108, input[type=submit].icon108,
+input[type=button].icon109, input[type=submit].icon109,
+input[type=button].icon110, input[type=submit].icon110,
+input[type=button].icon111, input[type=submit].icon111,
+input[type=button].icon112, input[type=submit].icon112,
+input[type=button].icon113, input[type=submit].icon113,
+input[type=button].icon114, input[type=submit].icon114,
+input[type=button].icon115, input[type=submit].icon115,
+input[type=button].icon116, input[type=submit].icon116,
+input[type=button].icon117, input[type=submit].icon117,
+input[type=button].icon118, input[type=submit].icon118,
+input[type=button].icon119, input[type=submit].icon119,
+input[type=button].icon120, input[type=submit].icon120,
+input[type=button].icon121, input[type=submit].icon121,
+input[type=button].icon122, input[type=submit].icon122,
+input[type=button].icon123, input[type=submit].icon123,
+input[type=button].icon124, input[type=submit].icon124,
+input[type=button].icon125, input[type=submit].icon125,
+input[type=button].icon126, input[type=submit].icon126,
+input[type=button].icon127, input[type=submit].icon127,
+input[type=button].icon128, input[type=submit].icon128,
+input[type=button].icon129, input[type=submit].icon129,
+input[type=button].icon130, input[type=submit].icon130,
+input[type=button].icon131, input[type=submit].icon131,
+input[type=button].icon132, input[type=submit].icon132,
+input[type=button].icon133, input[type=submit].icon133,
+input[type=button].icon134, input[type=submit].icon134,
+input[type=button].icon135, input[type=submit].icon135,
+input[type=button].icon136, input[type=submit].icon136,
+input[type=button].icon137, input[type=submit].icon137,
+input[type=button].icon138, input[type=submit].icon138,
+input[type=button].icon139, input[type=submit].icon139,
+input[type=button].icon140, input[type=submit].icon140,
+input[type=button].icon141, input[type=submit].icon141,
+input[type=button].icon142, input[type=submit].icon142,
+input[type=button].icon143, input[type=submit].icon143,
+input[type=button].icon144, input[type=submit].icon144,
+input[type=button].icon145, input[type=submit].icon145,
+input[type=button].icon146, input[type=submit].icon146,
+input[type=button].icon147, input[type=submit].icon147,
+input[type=button].icon148, input[type=submit].icon148,
+input[type=button].icon149, input[type=submit].icon149,
+input[type=button].icon150, input[type=submit].icon150,
+input[type=button].icon151, input[type=submit].icon151,
+input[type=button].icon152, input[type=submit].icon152,
+input[type=button].icon153, input[type=submit].icon153,
+input[type=button].icon154, input[type=submit].icon154,
+input[type=button].icon155, input[type=submit].icon155,
+input[type=button].icon156, input[type=submit].icon156,
+input[type=button].icon157, input[type=submit].icon157,
+input[type=button].icon158, input[type=submit].icon158,
+input[type=button].icon159, input[type=submit].icon159,
+input[type=button].icon160, input[type=submit].icon160,
+input[type=button].icon161, input[type=submit].icon161,
+input[type=button].icon162, input[type=submit].icon162,
+input[type=button].icon163, input[type=submit].icon163,
+input[type=button].icon164, input[type=submit].icon164,
+input[type=button].icon165, input[type=submit].icon165,
+input[type=button].icon166, input[type=submit].icon166,
+input[type=button].icon167, input[type=submit].icon167,
+input[type=button].icon168, input[type=submit].icon168,
+input[type=button].icon169, input[type=submit].icon169,
+input[type=button].icon170, input[type=submit].icon170,
+input[type=button].icon171, input[type=submit].icon171,
+input[type=button].icon172, input[type=submit].icon172,
+input[type=button].icon173, input[type=submit].icon173,
+input[type=button].icon174, input[type=submit].icon174,
+input[type=button].icon175, input[type=submit].icon175,
+input[type=button].icon176, input[type=submit].icon176,
+input[type=button].icon177, input[type=submit].icon177,
+input[type=button].icon178, input[type=submit].icon178,
+input[type=button].icon179, input[type=submit].icon179,
+input[type=button].icon180, input[type=submit].icon180,
+input[type=button].icon181, input[type=submit].icon181,
+input[type=button].icon182, input[type=submit].icon182,
+input[type=button].icon183, input[type=submit].icon183,
+input[type=button].icon184, input[type=submit].icon184,
+input[type=button].icon185, input[type=submit].icon185,
+input[type=button].icon186, input[type=submit].icon186,
+input[type=button].icon187, input[type=submit].icon187,
+input[type=button].icon188, input[type=submit].icon188,
+input[type=button].icon189, input[type=submit].icon189,
+input[type=button].icon190, input[type=submit].icon190,
+input[type=button].icon191, input[type=submit].icon191,
+input[type=button].icon192, input[type=submit].icon192,
+input[type=button].icon193, input[type=submit].icon193,
+input[type=button].icon194, input[type=submit].icon194,
+input[type=button].icon195, input[type=submit].icon195,
+input[type=button].icon196, input[type=submit].icon196,
+input[type=button].icon197, input[type=submit].icon197,
+input[type=button].icon198, input[type=submit].icon198,
+input[type=button].icon199, input[type=submit].icon199,
+input[type=button].icon200, input[type=submit].icon200 {
+	background: url(../images/buttons-gray.png) no-repeat #F3F3F3;
+	padding: 7px 15px 6px 35px;
+	top: 0px !important;
+}
+input[type=button].icon1:hover, input[type=submit].icon1:hover,
+input[type=button].icon2:hover, input[type=submit].icon2:hover,
+input[type=button].icon3:hover, input[type=submit].icon3:hover,
+input[type=button].icon4:hover, input[type=submit].icon4:hover,
+input[type=button].icon5:hover, input[type=submit].icon5:hover,
+input[type=button].icon6:hover, input[type=submit].icon6:hover,
+input[type=button].icon7:hover, input[type=submit].icon7:hover,
+input[type=button].icon8:hover, input[type=submit].icon8:hover,
+input[type=button].icon9:hover, input[type=submit].icon9:hover,
+input[type=button].icon10:hover, input[type=submit].icon10:hover,
+input[type=button].icon11:hover, input[type=submit].icon11:hover,
+input[type=button].icon12:hover, input[type=submit].icon12:hover,
+input[type=button].icon13:hover, input[type=submit].icon13:hover,
+input[type=button].icon14:hover, input[type=submit].icon14:hover,
+input[type=button].icon15:hover, input[type=submit].icon15:hover,
+input[type=button].icon16:hover, input[type=submit].icon16:hover,
+input[type=button].icon17:hover, input[type=submit].icon17:hover,
+input[type=button].icon18:hover, input[type=submit].icon18:hover,
+input[type=button].icon19:hover, input[type=submit].icon19:hover,
+input[type=button].icon20:hover, input[type=submit].icon20:hover,
+input[type=button].icon21:hover, input[type=submit].icon21:hover,
+input[type=button].icon22:hover, input[type=submit].icon22:hover,
+input[type=button].icon23:hover, input[type=submit].icon23:hover,
+input[type=button].icon24:hover, input[type=submit].icon24:hover,
+input[type=button].icon25:hover, input[type=submit].icon25:hover,
+input[type=button].icon26:hover, input[type=submit].icon26:hover,
+input[type=button].icon27:hover, input[type=submit].icon27:hover,
+input[type=button].icon28:hover, input[type=submit].icon28:hover,
+input[type=button].icon29:hover, input[type=submit].icon29:hover,
+input[type=button].icon30:hover, input[type=submit].icon30:hover,
+input[type=button].icon31:hover, input[type=submit].icon31:hover,
+input[type=button].icon32:hover, input[type=submit].icon32:hover,
+input[type=button].icon33:hover, input[type=submit].icon33:hover,
+input[type=button].icon34:hover, input[type=submit].icon34:hover,
+input[type=button].icon35:hover, input[type=submit].icon35:hover,
+input[type=button].icon36:hover, input[type=submit].icon36:hover,
+input[type=button].icon37:hover, input[type=submit].icon37:hover,
+input[type=button].icon38:hover, input[type=submit].icon38:hover,
+input[type=button].icon39:hover, input[type=submit].icon39:hover,
+input[type=button].icon40:hover, input[type=submit].icon40:hover,
+input[type=button].icon41:hover, input[type=submit].icon41:hover,
+input[type=button].icon42:hover, input[type=submit].icon42:hover,
+input[type=button].icon43:hover, input[type=submit].icon43:hover,
+input[type=button].icon44:hover, input[type=submit].icon44:hover,
+input[type=button].icon45:hover, input[type=submit].icon45:hover,
+input[type=button].icon46:hover, input[type=submit].icon46:hover,
+input[type=button].icon47:hover, input[type=submit].icon47:hover,
+input[type=button].icon48:hover, input[type=submit].icon48:hover,
+input[type=button].icon49:hover, input[type=submit].icon49:hover,
+input[type=button].icon50:hover, input[type=submit].icon50:hover,
+input[type=button].icon51:hover, input[type=submit].icon51:hover,
+input[type=button].icon52:hover, input[type=submit].icon52:hover,
+input[type=button].icon53:hover, input[type=submit].icon53:hover,
+input[type=button].icon54:hover, input[type=submit].icon54:hover,
+input[type=button].icon55:hover, input[type=submit].icon55:hover,
+input[type=button].icon56:hover, input[type=submit].icon56:hover,
+input[type=button].icon57:hover, input[type=submit].icon57:hover,
+input[type=button].icon58:hover, input[type=submit].icon58:hover,
+input[type=button].icon59:hover, input[type=submit].icon59:hover,
+input[type=button].icon60:hover, input[type=submit].icon60:hover,
+input[type=button].icon61:hover, input[type=submit].icon61:hover,
+input[type=button].icon62:hover, input[type=submit].icon62:hover,
+input[type=button].icon63:hover, input[type=submit].icon63:hover,
+input[type=button].icon64:hover, input[type=submit].icon64:hover,
+input[type=button].icon65:hover, input[type=submit].icon65:hover,
+input[type=button].icon66:hover, input[type=submit].icon66:hover,
+input[type=button].icon67:hover, input[type=submit].icon67:hover,
+input[type=button].icon68:hover, input[type=submit].icon68:hover,
+input[type=button].icon69:hover, input[type=submit].icon69:hover,
+input[type=button].icon70:hover, input[type=submit].icon70:hover,
+input[type=button].icon71:hover, input[type=submit].icon71:hover,
+input[type=button].icon72:hover, input[type=submit].icon72:hover,
+input[type=button].icon73:hover, input[type=submit].icon73:hover,
+input[type=button].icon74:hover, input[type=submit].icon74:hover,
+input[type=button].icon75:hover, input[type=submit].icon75:hover,
+input[type=button].icon76:hover, input[type=submit].icon76:hover,
+input[type=button].icon77:hover, input[type=submit].icon77:hover,
+input[type=button].icon78:hover, input[type=submit].icon78:hover,
+input[type=button].icon79:hover, input[type=submit].icon79:hover,
+input[type=button].icon80:hover, input[type=submit].icon80:hover,
+input[type=button].icon81:hover, input[type=submit].icon81:hover,
+input[type=button].icon82:hover, input[type=submit].icon82:hover,
+input[type=button].icon83:hover, input[type=submit].icon83:hover,
+input[type=button].icon84:hover, input[type=submit].icon84:hover,
+input[type=button].icon85:hover, input[type=submit].icon85:hover,
+input[type=button].icon86:hover, input[type=submit].icon86:hover,
+input[type=button].icon87:hover, input[type=submit].icon87:hover,
+input[type=button].icon88:hover, input[type=submit].icon88:hover,
+input[type=button].icon89:hover, input[type=submit].icon89:hover,
+input[type=button].icon90:hover, input[type=submit].icon90:hover,
+input[type=button].icon91:hover, input[type=submit].icon91:hover,
+input[type=button].icon92:hover, input[type=submit].icon92:hover,
+input[type=button].icon93:hover, input[type=submit].icon93:hover,
+input[type=button].icon94:hover, input[type=submit].icon94:hover,
+input[type=button].icon95:hover, input[type=submit].icon95:hover,
+input[type=button].icon96:hover, input[type=submit].icon96:hover,
+input[type=button].icon97:hover, input[type=submit].icon97:hover,
+input[type=button].icon98:hover, input[type=submit].icon98:hover,
+input[type=button].icon99:hover, input[type=submit].icon99:hover,
+input[type=button].icon100:hover, input[type=submit].icon100:hover,
+input[type=button].icon101:hover, input[type=submit].icon101:hover,
+input[type=button].icon102:hover, input[type=submit].icon102:hover,
+input[type=button].icon103:hover, input[type=submit].icon103:hover,
+input[type=button].icon104:hover, input[type=submit].icon104:hover,
+input[type=button].icon105:hover, input[type=submit].icon105:hover,
+input[type=button].icon106:hover, input[type=submit].icon106:hover,
+input[type=button].icon107:hover, input[type=submit].icon107:hover,
+input[type=button].icon108:hover, input[type=submit].icon108:hover,
+input[type=button].icon109:hover, input[type=submit].icon109:hover,
+input[type=button].icon110:hover, input[type=submit].icon110:hover,
+input[type=button].icon111:hover, input[type=submit].icon111:hover,
+input[type=button].icon112:hover, input[type=submit].icon112:hover,
+input[type=button].icon113:hover, input[type=submit].icon113:hover,
+input[type=button].icon114:hover, input[type=submit].icon114:hover,
+input[type=button].icon115:hover, input[type=submit].icon115:hover,
+input[type=button].icon116:hover, input[type=submit].icon116:hover,
+input[type=button].icon117:hover, input[type=submit].icon117:hover,
+input[type=button].icon118:hover, input[type=submit].icon118:hover,
+input[type=button].icon119:hover, input[type=submit].icon119:hover,
+input[type=button].icon120:hover, input[type=submit].icon120:hover,
+input[type=button].icon121:hover, input[type=submit].icon121:hover,
+input[type=button].icon122:hover, input[type=submit].icon122:hover,
+input[type=button].icon123:hover, input[type=submit].icon123:hover,
+input[type=button].icon124:hover, input[type=submit].icon124:hover,
+input[type=button].icon125:hover, input[type=submit].icon125:hover,
+input[type=button].icon126:hover, input[type=submit].icon126:hover,
+input[type=button].icon127:hover, input[type=submit].icon127:hover,
+input[type=button].icon128:hover, input[type=submit].icon128:hover,
+input[type=button].icon129:hover, input[type=submit].icon129:hover,
+input[type=button].icon130:hover, input[type=submit].icon130:hover,
+input[type=button].icon131:hover, input[type=submit].icon131:hover,
+input[type=button].icon132:hover, input[type=submit].icon132:hover,
+input[type=button].icon133:hover, input[type=submit].icon133:hover,
+input[type=button].icon134:hover, input[type=submit].icon134:hover,
+input[type=button].icon135:hover, input[type=submit].icon135:hover,
+input[type=button].icon136:hover, input[type=submit].icon136:hover,
+input[type=button].icon137:hover, input[type=submit].icon137:hover,
+input[type=button].icon138:hover, input[type=submit].icon138:hover,
+input[type=button].icon139:hover, input[type=submit].icon139:hover,
+input[type=button].icon140:hover, input[type=submit].icon140:hover,
+input[type=button].icon141:hover, input[type=submit].icon141:hover,
+input[type=button].icon142:hover, input[type=submit].icon142:hover,
+input[type=button].icon143:hover, input[type=submit].icon143:hover,
+input[type=button].icon144:hover, input[type=submit].icon144:hover,
+input[type=button].icon145:hover, input[type=submit].icon145:hover,
+input[type=button].icon146:hover, input[type=submit].icon146:hover,
+input[type=button].icon147:hover, input[type=submit].icon147:hover,
+input[type=button].icon148:hover, input[type=submit].icon148:hover,
+input[type=button].icon149:hover, input[type=submit].icon149:hover,
+input[type=button].icon150:hover, input[type=submit].icon150:hover,
+input[type=button].icon151:hover, input[type=submit].icon151:hover,
+input[type=button].icon152:hover, input[type=submit].icon152:hover,
+input[type=button].icon153:hover, input[type=submit].icon153:hover,
+input[type=button].icon154:hover, input[type=submit].icon154:hover,
+input[type=button].icon155:hover, input[type=submit].icon155:hover,
+input[type=button].icon156:hover, input[type=submit].icon156:hover,
+input[type=button].icon157:hover, input[type=submit].icon157:hover,
+input[type=button].icon158:hover, input[type=submit].icon158:hover,
+input[type=button].icon159:hover, input[type=submit].icon159:hover,
+input[type=button].icon160:hover, input[type=submit].icon160:hover,
+input[type=button].icon161:hover, input[type=submit].icon161:hover,
+input[type=button].icon162:hover, input[type=submit].icon162:hover,
+input[type=button].icon163:hover, input[type=submit].icon163:hover,
+input[type=button].icon164:hover, input[type=submit].icon164:hover,
+input[type=button].icon165:hover, input[type=submit].icon165:hover,
+input[type=button].icon166:hover, input[type=submit].icon166:hover,
+input[type=button].icon167:hover, input[type=submit].icon167:hover,
+input[type=button].icon168:hover, input[type=submit].icon168:hover,
+input[type=button].icon169:hover, input[type=submit].icon169:hover,
+input[type=button].icon170:hover, input[type=submit].icon170:hover,
+input[type=button].icon171:hover, input[type=submit].icon171:hover,
+input[type=button].icon172:hover, input[type=submit].icon172:hover,
+input[type=button].icon173:hover, input[type=submit].icon173:hover,
+input[type=button].icon174:hover, input[type=submit].icon174:hover,
+input[type=button].icon175:hover, input[type=submit].icon175:hover,
+input[type=button].icon176:hover, input[type=submit].icon176:hover,
+input[type=button].icon177:hover, input[type=submit].icon177:hover,
+input[type=button].icon178:hover, input[type=submit].icon178:hover,
+input[type=button].icon179:hover, input[type=submit].icon179:hover,
+input[type=button].icon180:hover, input[type=submit].icon180:hover,
+input[type=button].icon181:hover, input[type=submit].icon181:hover,
+input[type=button].icon182:hover, input[type=submit].icon182:hover,
+input[type=button].icon183:hover, input[type=submit].icon183:hover,
+input[type=button].icon184:hover, input[type=submit].icon184:hover,
+input[type=button].icon185:hover, input[type=submit].icon185:hover,
+input[type=button].icon186:hover, input[type=submit].icon186:hover,
+input[type=button].icon187:hover, input[type=submit].icon187:hover,
+input[type=button].icon188:hover, input[type=submit].icon188:hover,
+input[type=button].icon189:hover, input[type=submit].icon189:hover,
+input[type=button].icon190:hover, input[type=submit].icon190:hover,
+input[type=button].icon191:hover, input[type=submit].icon191:hover,
+input[type=button].icon192:hover, input[type=submit].icon192:hover,
+input[type=button].icon193:hover, input[type=submit].icon193:hover,
+input[type=button].icon194:hover, input[type=submit].icon194:hover,
+input[type=button].icon195:hover, input[type=submit].icon195:hover,
+input[type=button].icon196:hover, input[type=submit].icon196:hover,
+input[type=button].icon197:hover, input[type=submit].icon197:hover,
+input[type=button].icon198:hover, input[type=submit].icon198:hover,
+input[type=button].icon199:hover, input[type=submit].icon199:hover,
+input[type=button].icon200:hover, input[type=submit].icon200:hover {
+	background-image: url(../images/buttons-color.png);
+}
+
+/*------------------------------------*\
+	$ICONS
+\*------------------------------------*/
+input[type=button].icon1, input[type=submit].icon1 {background-position: 0px -2px;}
+input[type=button].icon2, input[type=submit].icon2 {background-position: 0px -37px;}
+input[type=button].icon3, input[type=submit].icon3 {background-position: 0px -72px;}
+input[type=button].icon4, input[type=submit].icon4 {background-position: 0px -107px;}
+input[type=button].icon5, input[type=submit].icon5 {background-position: 0px -142px;}
+input[type=button].icon6, input[type=submit].icon6 {background-position: 0px -177px;}
+input[type=button].icon7, input[type=submit].icon7 {background-position: 0px -212px;}
+input[type=button].icon8, input[type=submit].icon8 {background-position: 0px -247px;}
+input[type=button].icon9, input[type=submit].icon9 {background-position: 0px -282px;}
+input[type=button].icon10, input[type=submit].icon10 {background-position: 0px -317px;}
+input[type=button].icon11, input[type=submit].icon11 {background-position: 0px -352px;}
+input[type=button].icon12, input[type=submit].icon12 {background-position: 0px -387px;}
+input[type=button].icon13, input[type=submit].icon13 {background-position: 0px -422px;}
+input[type=button].icon14, input[type=submit].icon14 {background-position: 0px -457px;}
+input[type=button].icon15, input[type=submit].icon15 {background-position: 0px -492px;}
+input[type=button].icon16, input[type=submit].icon16 {background-position: 0px -527px;}
+input[type=button].icon17, input[type=submit].icon17 {background-position: 0px -562px;}
+input[type=button].icon18, input[type=submit].icon18 {background-position: 0px -597px;}
+input[type=button].icon19, input[type=submit].icon19 {background-position: 0px -632px;}
+input[type=button].icon20, input[type=submit].icon20 {background-position: 0px -667px;}
+input[type=button].icon21, input[type=submit].icon21 {background-position: 0px -702px;}
+input[type=button].icon22, input[type=submit].icon22 {background-position: 0px -737px;}
+input[type=button].icon23, input[type=submit].icon23 {background-position: 0px -772px;}
+input[type=button].icon24, input[type=submit].icon24 {background-position: 0px -807px;}
+input[type=button].icon25, input[type=submit].icon25 {background-position: 0px -842px;}
+input[type=button].icon26, input[type=submit].icon26 {background-position: 0px -877px;}
+input[type=button].icon27, input[type=submit].icon27 {background-position: 0px -912px;}
+input[type=button].icon28, input[type=submit].icon28 {background-position: 0px -947px;}
+input[type=button].icon29, input[type=submit].icon29 {background-position: 0px -982px;}
+input[type=button].icon30, input[type=submit].icon30 {background-position: 0px -1017px;}
+input[type=button].icon31, input[type=submit].icon31 {background-position: 0px -1052px;}
+input[type=button].icon32, input[type=submit].icon32 {background-position: 0px -1087px;}
+input[type=button].icon33, input[type=submit].icon33 {background-position: 0px -1122px;}
+input[type=button].icon34, input[type=submit].icon34 {background-position: 0px -1157px;}
+input[type=button].icon35, input[type=submit].icon35 {background-position: 0px -1192px;}
+input[type=button].icon36, input[type=submit].icon36 {background-position: 0px -1227px;}
+input[type=button].icon37, input[type=submit].icon37 {background-position: 0px -1262px;}
+input[type=button].icon38, input[type=submit].icon38 {background-position: 0px -1297px;}
+input[type=button].icon39, input[type=submit].icon39 {background-position: 0px -1332px;}
+input[type=button].icon40, input[type=submit].icon40 {background-position: 0px -1367px;}
+input[type=button].icon41, input[type=submit].icon41 {background-position: 0px -1402px;}
+input[type=button].icon42, input[type=submit].icon42 {background-position: 0px -1437px;}
+input[type=button].icon43, input[type=submit].icon43 {background-position: 0px -1472px;}
+input[type=button].icon44, input[type=submit].icon44 {background-position: 0px -1507px;}
+input[type=button].icon45, input[type=submit].icon45 {background-position: 0px -1542px;}
+input[type=button].icon46, input[type=submit].icon46 {background-position: 0px -1577px;}
+input[type=button].icon47, input[type=submit].icon47 {background-position: 0px -1612px;}
+input[type=button].icon48, input[type=submit].icon48 {background-position: 0px -1647px;}
+input[type=button].icon49, input[type=submit].icon49 {background-position: 0px -1682px;}
+input[type=button].icon50, input[type=submit].icon50 {background-position: 0px -1717px;}
+input[type=button].icon51, input[type=submit].icon51 {background-position: 0px -1752px;}
+input[type=button].icon52, input[type=submit].icon52 {background-position: 0px -1787px;}
+input[type=button].icon53, input[type=submit].icon53 {background-position: 0px -1822px;}
+input[type=button].icon54, input[type=submit].icon54 {background-position: 0px -1857px;}
+input[type=button].icon55, input[type=submit].icon55 {background-position: 0px -1892px;}
+input[type=button].icon56, input[type=submit].icon56 {background-position: 0px -1927px;}
+input[type=button].icon57, input[type=submit].icon57 {background-position: 0px -1962px;}
+input[type=button].icon58, input[type=submit].icon58 {background-position: 0px -1997px;}
+input[type=button].icon59, input[type=submit].icon59 {background-position: 0px -2032px;}
+input[type=button].icon60, input[type=submit].icon60 {background-position: 0px -2067px;}
+input[type=button].icon61, input[type=submit].icon61 {background-position: 0px -2102px;}
+input[type=button].icon62, input[type=submit].icon62 {background-position: 0px -2139px;}
+input[type=button].icon63, input[type=submit].icon63 {background-position: 0px -2172px;}
+input[type=button].icon64, input[type=submit].icon64 {background-position: 0px -2207px;}
+input[type=button].icon65, input[type=submit].icon65 {background-position: 0px -2244px;}
+input[type=button].icon66, input[type=submit].icon66 {background-position: 0px -2277px;}
+input[type=button].icon67, input[type=submit].icon67 {background-position: 0px -2312px;}
+input[type=button].icon68, input[type=submit].icon68 {background-position: 0px -2347px;}
+input[type=button].icon69, input[type=submit].icon69 {background-position: 0px -2382px;}
+input[type=button].icon70, input[type=submit].icon70 {background-position: 0px -2417px;}
+input[type=button].icon71, input[type=submit].icon71 {background-position: 0px -2452px;}
+input[type=button].icon72, input[type=submit].icon72 {background-position: 0px -2487px;}
+input[type=button].icon73, input[type=submit].icon73 {background-position: 0px -2522px;}
+input[type=button].icon74, input[type=submit].icon74 {background-position: 0px -2557px;}
+input[type=button].icon75, input[type=submit].icon75 {background-position: 0px -2592px;}
+input[type=button].icon76, input[type=submit].icon76 {background-position: 0px -2627px;}
+input[type=button].icon77, input[type=submit].icon77 {background-position: 0px -2662px;}
+input[type=button].icon78, input[type=submit].icon78 {background-position: 0px -2697px;}
+input[type=button].icon79, input[type=submit].icon79 {background-position: 0px -2732px;}
+input[type=button].icon80, input[type=submit].icon80 {background-position: 0px -2767px;}
+input[type=button].icon81, input[type=submit].icon81 {background-position: 0px -2802px;}
+input[type=button].icon82, input[type=submit].icon82 {background-position: 0px -2837px;}
+input[type=button].icon83, input[type=submit].icon83 {background-position: 0px -2872px;}
+input[type=button].icon84, input[type=submit].icon84 {background-position: 0px -2907px;}
+input[type=button].icon85, input[type=submit].icon85 {background-position: 0px -2942px;}
+input[type=button].icon86, input[type=submit].icon86 {background-position: 0px -2977px;}
+input[type=button].icon87, input[type=submit].icon87 {background-position: 0px -3012px;}
+input[type=button].icon88, input[type=submit].icon88 {background-position: 0px -3047px;}
+input[type=button].icon89, input[type=submit].icon89 {background-position: 0px -3082px;}
+input[type=button].icon90, input[type=submit].icon90 {background-position: 0px -3117px;}
+input[type=button].icon91, input[type=submit].icon91 {background-position: 0px -3152px;}
+input[type=button].icon92, input[type=submit].icon92 {background-position: 0px -3187px;}
+input[type=button].icon93, input[type=submit].icon93 {background-position: 0px -3222px;}
+input[type=button].icon94, input[type=submit].icon94 {background-position: 0px -3257px;}
+input[type=button].icon95, input[type=submit].icon95 {background-position: 0px -3292px;}
+input[type=button].icon96, input[type=submit].icon96 {background-position: 0px -3327px;}
+input[type=button].icon97, input[type=submit].icon97 {background-position: 0px -3362px;}
+input[type=button].icon98, input[type=submit].icon98 {background-position: 0px -3397px;}
+input[type=button].icon99, input[type=submit].icon99 {background-position: 0px -3432px;}
+input[type=button].icon100, input[type=submit].icon100 {background-position: 0px -3467px;}
+input[type=button].icon101, input[type=submit].icon101 {background-position: 0px -3502px;}
+input[type=button].icon102, input[type=submit].icon102 {background-position: 0px -3537px;}
+input[type=button].icon103, input[type=submit].icon103 {background-position: 0px -3572px;}
+input[type=button].icon104, input[type=submit].icon104 {background-position: 0px -3607px;}
+input[type=button].icon105, input[type=submit].icon105 {background-position: 0px -3642px;}
+input[type=button].icon106, input[type=submit].icon106 {background-position: 0px -3677px;}
+input[type=button].icon107, input[type=submit].icon107 {background-position: 0px -3712px;}
+input[type=button].icon108, input[type=submit].icon108 {background-position: 0px -3747px;}
+input[type=button].icon109, input[type=submit].icon109 {background-position: 0px -3782px;}
+input[type=button].icon110, input[type=submit].icon110 {background-position: 0px -3817px;}
+input[type=button].icon111, input[type=submit].icon111 {background-position: 0px -3852px;}
+input[type=button].icon112, input[type=submit].icon112 {background-position: 0px -3887px;}
+input[type=button].icon113, input[type=submit].icon113 {background-position: 0px -3922px;}
+input[type=button].icon114, input[type=submit].icon114 {background-position: 0px -3957px;}
+input[type=button].icon115, input[type=submit].icon115 {background-position: 0px -3992px;}
+input[type=button].icon116, input[type=submit].icon116 {background-position: 0px -4027px;}
+input[type=button].icon117, input[type=submit].icon117 {background-position: 0px -4062px;}
+input[type=button].icon118, input[type=submit].icon118 {background-position: 0px -4097px;}
+input[type=button].icon119, input[type=submit].icon119 {background-position: 0px -4132px;}
+input[type=button].icon120, input[type=submit].icon120 {background-position: 0px -4167px;}
+input[type=button].icon121, input[type=submit].icon121 {background-position: 0px -4202px;}
+input[type=button].icon122, input[type=submit].icon122 {background-position: 0px -4237px;}
+input[type=button].icon123, input[type=submit].icon123 {background-position: 0px -4272px;}
+input[type=button].icon124, input[type=submit].icon124 {background-position: 0px -4307px;}
+input[type=button].icon125, input[type=submit].icon125 {background-position: 0px -4342px;}
+input[type=button].icon126, input[type=submit].icon126 {background-position: 0px -4377px;}
+input[type=button].icon127, input[type=submit].icon127 {background-position: 0px -4412px;}
+input[type=button].icon128, input[type=submit].icon128 {background-position: 0px -4447px;}
+input[type=button].icon129, input[type=submit].icon129 {background-position: 0px -4482px;}
+input[type=button].icon130, input[type=submit].icon130 {background-position: 0px -4517px;}
+input[type=button].icon131, input[type=submit].icon131 {background-position: 0px -4552px;}
+input[type=button].icon132, input[type=submit].icon132 {background-position: 0px -4587px;}
+input[type=button].icon133, input[type=submit].icon133 {background-position: 0px -4622px;}
+input[type=button].icon134, input[type=submit].icon134 {background-position: 0px -4657px;}
+input[type=button].icon135, input[type=submit].icon135 {background-position: 0px -4692px;}
+input[type=button].icon136, input[type=submit].icon136 {background-position: 0px -4727px;}
+input[type=button].icon137, input[type=submit].icon137 {background-position: 0px -4762px;}
+input[type=button].icon138, input[type=submit].icon138 {background-position: 0px -4797px;}
+input[type=button].icon139, input[type=submit].icon139 {background-position: 0px -4832px;}
+input[type=button].icon140, input[type=submit].icon140 {background-position: 0px -4867px;}
+input[type=button].icon141, input[type=submit].icon141 {background-position: 0px -4902px;}
+input[type=button].icon142, input[type=submit].icon142 {background-position: 0px -4937px;}
+input[type=button].icon143, input[type=submit].icon143 {background-position: 0px -4972px;}
+input[type=button].icon144, input[type=submit].icon144 {background-position: 0px -5007px;}
+input[type=button].icon145, input[type=submit].icon145 {background-position: 0px -5042px;}
+input[type=button].icon146, input[type=submit].icon146 {background-position: 0px -5077px;}
+input[type=button].icon147, input[type=submit].icon147 {background-position: 0px -5112px;}
+input[type=button].icon148, input[type=submit].icon148 {background-position: 0px -5147px;}
+input[type=button].icon149, input[type=submit].icon149 {background-position: 0px -5182px;}
+input[type=button].icon150, input[type=submit].icon150 {background-position: 0px -5217px;}
+input[type=button].icon151, input[type=submit].icon151 {background-position: 0px -5252px;}
+input[type=button].icon152, input[type=submit].icon152 {background-position: 0px -5287px;}
+input[type=button].icon153, input[type=submit].icon153 {background-position: 0px -5322px;}
+input[type=button].icon154, input[type=submit].icon154 {background-position: 0px -5357px;}
+input[type=button].icon155, input[type=submit].icon155 {background-position: 0px -5392px;}
+input[type=button].icon156, input[type=submit].icon156 {background-position: 0px -5427px;}
+input[type=button].icon157, input[type=submit].icon157 {background-position: 0px -5462px;}
+input[type=button].icon158, input[type=submit].icon158 {background-position: 0px -5497px;}
+input[type=button].icon159, input[type=submit].icon159 {background-position: 0px -5532px;}
+input[type=button].icon160, input[type=submit].icon160 {background-position: 0px -5567px;}
+input[type=button].icon161, input[type=submit].icon161 {background-position: 0px -5602px;}
+input[type=button].icon162, input[type=submit].icon162 {background-position: 0px -5637px;}
+input[type=button].icon163, input[type=submit].icon163 {background-position: 0px -5672px;}
+input[type=button].icon164, input[type=submit].icon164 {background-position: 0px -5707px;}
+input[type=button].icon165, input[type=submit].icon165 {background-position: 0px -5742px;}
+input[type=button].icon166, input[type=submit].icon166 {background-position: 0px -5777px;}
+input[type=button].icon167, input[type=submit].icon167 {background-position: 0px -5812px;}
+input[type=button].icon168, input[type=submit].icon168 {background-position: 0px -5847px;}
+input[type=button].icon169, input[type=submit].icon169 {background-position: 0px -5882px;}
+input[type=button].icon170, input[type=submit].icon170 {background-position: 0px -5917px;}
+input[type=button].icon171, input[type=submit].icon171 {background-position: 0px -5952px;}
+input[type=button].icon172, input[type=submit].icon172 {background-position: 0px -5987px;}
+input[type=button].icon173, input[type=submit].icon173 {background-position: 0px -6022px;}
+input[type=button].icon174, input[type=submit].icon174 {background-position: 0px -6057px;}
+input[type=button].icon175, input[type=submit].icon175 {background-position: 0px -6092px;}
+input[type=button].icon176, input[type=submit].icon176 {background-position: 0px -6127px;}
+input[type=button].icon177, input[type=submit].icon177 {background-position: 0px -6162px;}
+input[type=button].icon178, input[type=submit].icon178 {background-position: 0px -6197px;}
+input[type=button].icon179, input[type=submit].icon179 {background-position: 0px -6232px;}
+input[type=button].icon180, input[type=submit].icon180 {background-position: 0px -6267px;}
+input[type=button].icon181, input[type=submit].icon181 {background-position: 0px -6302px;}
+input[type=button].icon182, input[type=submit].icon182 {background-position: 0px -6337px;}
+input[type=button].icon183, input[type=submit].icon183 {background-position: 0px -6372px;}
+input[type=button].icon184, input[type=submit].icon184 {background-position: 0px -6407px;}
+input[type=button].icon185, input[type=submit].icon185 {background-position: 0px -6442px;}
+input[type=button].icon186, input[type=submit].icon186 {background-position: 0px -6477px;}
+input[type=button].icon187, input[type=submit].icon187 {background-position: 0px -6512px;}
+input[type=button].icon188, input[type=submit].icon188 {background-position: 0px -6547px;}
+input[type=button].icon189, input[type=submit].icon189 {background-position: 0px -6582px;}
+input[type=button].icon190, input[type=submit].icon190 {background-position: 0px -6617px;}
+input[type=button].icon191, input[type=submit].icon191 {background-position: 0px -6652px;}
+input[type=button].icon192, input[type=submit].icon192 {background-position: 0px -6687px;}
+input[type=button].icon193, input[type=submit].icon193 {background-position: 0px -6722px;}
+input[type=button].icon194, input[type=submit].icon194 {background-position: 0px -6757px;}
+input[type=button].icon195, input[type=submit].icon195 {background-position: 0px -6792px;}
+input[type=button].icon196, input[type=submit].icon196 {background-position: 0px -6827px;}
+input[type=button].icon197, input[type=submit].icon197 {background-position: 0px -6862px;}
+input[type=button].icon198, input[type=submit].icon198 {background-position: 0px -6897px;}
+input[type=button].icon199, input[type=submit].icon199 {background-position: 0px -6932px;}
+input[type=button].icon200, input[type=submit].icon200 {background-position: 0px -6967px;}
+/*------------------------------------*\
+	$DROPDOWN MENU
+\*------------------------------------*/
+.buttons.dropdown{
+	display: inline-block;
+	margin: 0;
+	padding: 0;	
+}
+.buttons.dropdown:before,
+.buttons.dropdown:after {
+  display: table;
+  zoom: 1;
+  *display: inline;
+}
+.buttons.dropdown > li {
+  float: left;
+  display: block;
+  cursor: pointer;
+  position: relative;
+  top: 1px;
+  padding: 0;
+  margin: 0px;
+  line-height: 36px;
+}
+.buttons.dropdown > li > ul {
+	padding-top: 0px !important;
+	top: 29px;	
+}
+.buttons.dropdown > li > input[type=button] {
+	width: auto;
+  	text-align: right !important;
+	display: block;
+}
+.buttons.dropdown > li > ul > li > input[type=button]{
+ 	text-align: left !important;
+	padding: 7px 15px 6px 35px !important;
+	display: block;
+	width: 100%;
+}
+.buttons .menu-dropdown, .buttons .dropdown-menu {
+	background: none !important;
+	border: none !important;
+	outline: none !important;
+	-webkit-box-shadow: none !important;
+	-moz-box-shadow: none !important;
+	box-shadow: none !important;
+	top: 25px;
+	border: none;	
+}
+.buttons.dropdown.open .menu-dropdown {
+  display: block;
+}
+
+div.content div.buttons,
+div.content span.buttons,
+span.content div.buttons,
+span.content span.buttons{
+	margin-left: 150px;
+}

@@ -1,0 +1,89 @@
+.scms_modal {
+border-collapse:collapse;
+position:absolute;
+top:-9000px;
+left:-9000px;
+margin:0;
+padding:0;
+outline: 0;
+border: 1px solid rgba(0, 67, 138, 0.6);
+-webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(47, 91, 183, 0.6);
+-moz-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(63, 131, 241, 0.6);
+box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 8px rgba(63, 131, 241, 0.6);
+}
+
+.scms_modal, .scms_modal_content, .scms_modal_message {
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;	
+}
+
+.scms_modal .scms_modal_content {
+background-color:#fff;
+position:relative;
+}
+
+.scms_modal .loading {
+display:block;
+margin:10px auto;
+}
+
+.scms_modal .scms_modal_content .scms_modal_message {
+overflow:auto;
+position:relative;
+margin:0;
+padding:0;
+-webkit-border-radius: 3px;
+-moz-border-radius: 3px;
+border-radius: 3px;
+}
+.scms_modal .scms_modal_overlay {
+position:absolute;
+left:0;
+top:0;
+bottom:0;
+right:0;
+background:url(/bento/scms/images/loading.gif) center center no-repeat #fff;
+}
+
+.scms_modal .scms_modal_content .scms_modal_title {
+font-size: 14px;
+height: 28px;
+line-height: 28px;
+vertical-align: middle;
+border-bottom: 1px solid #DDD;
+padding: 0;
+margin: 0;
+background-color: whiteSmoke;
+}
+h4.scms_modal_title_text{
+padding-bottom: 0;
+font-size: .9em;
+margin: 0 0 0 20px;
+color: #000;
+line-height: 28px;
+vertical-align: middle;
+}
+.scms_modal_title_close{
+display: block;	
+cursor:pointer;
+float: right;
+color: black;
+font-weight: bold;
+font-size: 14px;
+line-height: 28px;
+text-shadow: 0 1px 0 #FFF;
+filter: alpha(opacity=20);
+-khtml-opacity: 0.2;
+-moz-opacity: 0.2;
+opacity: 0.2;
+vertical-align: middle;
+margin: 0 10px 0 0;
+padding: 0;
+}
+.scms_modal_title_close:hover{
+text-decoration:none;
+}
+iframe,frame{
+	outline: none;	
+}

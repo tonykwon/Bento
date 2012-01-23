@@ -1,0 +1,54 @@
+/* TAGS */ 
+h1{
+	color: #00bd39;
+}
+h2{
+	color: #0067a0;
+}
+h3{
+	color: #92ec00;
+}
+h4{
+	color: #007b25;
+}
+h5{
+	color: #555555;
+}
+
+/* CUSTOM */
+.topbar h3 a, .topbar h3 a:hover {
+	color: #FFF;
+	padding-left: 0;
+	margin-left: 0;
+}
+.header{
+	margin-top: 30px;
+	min-height: 30px;
+	width: 100%;
+	display:inline-block;
+	border-bottom: solid #333333 1px;
+	position: fixed;
+	z-index: 9000;
+}
+.header > div{
+	padding-top: 20px;
+}
+.left{
+	margin-bottom: 20px;
+}
+.left a{
+	margin-bottom: 3px;
+}
+.content.main{
+	padding-top: 60px;
+	min-height: 300px;
+}
+.right{
+	text-align: right;
+}
+.forms {
+	margin-bottom: 0px;
+}
+.error{
+	margin-top: 20px;	
+}

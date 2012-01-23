@@ -1,0 +1,116 @@
+<?php
+{
+  "version":"1.0",
+  "license":"",
+  "state":"not installed",
+  "email":"",
+  "public":{
+    "tagline":"Build an Empire",
+    "url":"index.php",
+    "assets":{
+      "php":"php",
+      "js":"js",
+      "css":"css",
+      "image":"image",
+      "swf":"swf",
+      "cache":"cache"
+    },
+    "debug":true
+  },
+  "private":{
+    "version":"+Bento + CMS",
+    "license":"http:\/\/www.builtonbento.com\/licensing\/",
+    "directory":"bento",
+    "auto":"auto",
+    "manual":"manual",
+    "assets":{
+      "install":"install",
+      "uninstall":"uninstall",
+      "tmp":"tmp",
+      "config":"config",
+      "cron":"cron",
+      "sql":"sql",
+      "zip":"zip"
+    },
+    "session_id":"bento_session_id",
+    "timezone":"America\/Denver",
+    "js":{
+      "file":[
+        
+      ],
+      "variable":[
+        
+      ]
+    },
+    "css":{
+      "file":[
+        
+      ]
+    },
+    "cron":{
+      "time":[
+        "1minute",
+        "5minutes",
+        "10minutes",
+        "15minutes",
+        "30minutes",
+        "60minutes",
+        "1hour",
+        "5hours",
+        "10hours",
+        "15hours",
+        "20hours",
+        "24hours",
+        "1day",
+        "5days",
+        "7days",
+        "1week",
+        "2weeks",
+        "4weeks",
+        "1month",
+        "3months",
+        "6months",
+        "9months",
+        "12months",
+        "1year"
+      ],
+      "querystring":"bento_cron"
+    },
+    "output":"html",
+    "clear_cache":true,
+    "compress":{
+      "css":false,
+      "js":false,
+      "html":false
+    },
+    "cache":{
+      "css":false,
+      "js":false,
+      "html":false,
+      "clear":true,
+      "time":30,
+      "querystring":"bento_cache"
+    },
+    "log":{
+      "error":"\/bento\/bento\/log\/error\/",
+      "access":"\/bento\/bento\/log\/access\/",
+      "cron":"\/bento\/bento\/log\/cron\/"
+    },
+    "log_retention":1,
+    "plugins":[
+      "archive",
+      "encryption",
+      "file",
+      "storage",
+      "message",
+      "db",
+      "language",
+      "form",
+      "image",
+      "scms",
+      "custom",
+	  "cron"
+    ]
+  }
+}
+?>

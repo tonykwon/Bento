@@ -1,0 +1,19 @@
+.scms,.no_scms,.facebook,.no_facebook,.twitter,.no_twitter, .no_load, #scms_notification {
+	opacity: 0;
+	display: none;
+}
+#scms_feed_form {
+	margin-bottom: 0px;
+}
+.scms_timestamp{
+	font-size: 11px;	
+	color: #999;
+	font-style:italic;
+}
+#scms_notification.none a{
+	color: #BFBFBF;	
+}
+#scms_notification.some a{
+	color: #3F83F1;	
+	font-weight: bold;
+}

@@ -1,0 +1,11 @@
+.content{
+	margin-top: 40px;
+}
+textarea.page{
+	width: 100%;
+	height: 200px;
+}
+
+td.buttons.right {
+	text-align: right;
+}

@@ -1,0 +1,124 @@
+.bento_message_container{
+  position: fixed;
+  top: 40px;
+  left: 0;
+  z-index: 10001;
+  overflow: visible;
+  width: 100%;
+}
+
+.bento_message_notification {
+	color: #FFFddd;
+	font: bold 12px;
+	text-decoration: none;
+	display: block;
+	text-shadow: 0 1px 0 #222;
+	-webkit-transition: border-color .218s;
+	-moz-transition: border .218s;
+	-o-transition: border-color .218s;
+	transition: border-color .218s;
+	background: #f3f3f3;
+	background: -webkit-gradient(linear,0% 40%,0% 70%,from(#F5F5F5),to(#F1F1F1));
+	background: -moz-linear-gradient(linear,0% 40%,0% 70%,from(#F5F5F5),to(#F1F1F1));
+	border: solid 1px #dcdcdc;
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+}
+
+.bento_message_notification.success {
+	border: 1px solid #29691D !important;
+	background: #3A8E00;
+	background: -webkit-linear-gradient(top, #3C9300, #398A00);
+	background: -moz-linear-gradient(top, #3C9300, #398A00);
+	background: -ms-linear-gradient(top, #3C9300, #398A00);
+	background: -o-linear-gradient(top, #3C9300, #398A00);	
+	-webkit-transition: border .20s;
+	-moz-transition: border .20s;
+	-o-transition: border .20s;
+	transition: border .20s;
+}
+.bento_message_notification.success:hover {
+	border: 1px solid #2D6200 !important;	
+	background: #3F83F1;
+	background: -webkit-linear-gradient(top, #3C9300, #368200);
+	background: -moz-linear-gradient(top, #3C9300, #368200);
+	background: -ms-linear-gradient(top, #3C9300, #368200);
+	background: -o-linear-gradient(top, #3C9300, #368200);
+}
+.bento_message_notification.info {
+	color: #7090C8;
+	border: 1px solid #3079ED !important;	
+	background: #4B8DF8;
+	background: -webkit-linear-gradient(top, #4C8FFD, #4787ED);
+	background: -moz-linear-gradient(top, #4C8FFD, #4787ED);
+	background: -ms-linear-gradient(top, #4C8FFD, #4787ED);
+	background: -o-linear-gradient(top, #4C8FFD, #4787ED);	
+	-webkit-transition: border .20s;
+	-moz-transition: border .20s;
+	-o-transition: border .20s;
+	transition: border .20s;
+}
+.bento_message_notification.info:hover  {
+	border: 1px solid #2F5BB7 !important;	
+	background: #3F83F1;
+	background: -webkit-linear-gradient(top, #4D90FE, #357AE8);
+	background: -moz-linear-gradient(top, #4D90FE, #357AE8);
+	background: -ms-linear-gradient(top, #4D90FE, #357AE8);
+	background: -o-linear-gradient(top, #4D90FE, #357AE8);
+}
+
+.bento_message_notification.error {
+	border: 1px solid #D14836 !important;	
+	background: #D64937;
+	background: -webkit-linear-gradient(top, #DC4A38, #D14836);
+	background: -moz-linear-gradient(top, #DC4A38, #D14836);
+	background: -ms-linear-gradient(top, #DC4A38, #D14836);
+	background: -o-linear-gradient(top, #DC4A38, #D14836);	
+	-webkit-transition: border .20s;
+	-moz-transition: border .20s;
+	-o-transition: border .20s;
+	transition: border .20s;
+	color: #FFF;
+}
+.bento_message_notification.error:hover {
+	border: 1px solid #B0281A !important;	
+	background: #D14130;
+	background: -webkit-linear-gradient(top, #DC4A38, #C53727);
+	background: -moz-linear-gradient(top, #DC4A38, #C53727);
+	background: -ms-linear-gradient(top, #DC4A38, #C53727);
+	background: -o-linear-gradient(top, #DC4A38, #C53727);
+}
+
+h4.bento_message_text{
+	color:#FFF;
+	font-weight:normal;
+	padding-bottom: 0;
+	font-size: 14px;
+	margin: 0 0 0 20px;
+}
+
+/* Inline messages */
+
+.alert-message.inline {
+  background-image: none;
+  background-color: #fdf5d9;
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  padding: 14px;
+  border-color: #fceec1;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+.alert-message.inline ul, .alert-message.inline p {
+  margin-right: 30px;
+}
+.alert-message.inline ul {
+  margin-bottom: 0;
+}
+.alert-message.inline li {
+  color: #404040;
+}
+.alert-message.inline .alert-actions {
+  margin-top: 5px;
+}

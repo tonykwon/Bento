@@ -1,0 +1,1 @@
+<?php $scms->sitemap();?>

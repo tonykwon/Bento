@@ -1,0 +1,51 @@
+.bento_message_container{
+  position: fixed;
+  top: 0px;
+  left: 0;
+  z-index: 10001;
+  overflow: visible;
+  width: 100%;
+}
+#bento_message_html {
+  margin-top: 0px !important;
+}
+span.content,div.content{
+	overflow-y: auto;
+	overflow-x: hidden;
+	display: none;
+	padding: 20px 0 20px 0;
+	margin-bottom: -20px;
+}
+span.buttons,div.buttons{
+	z-index:2;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: whiteSmoke;
+	padding: 14px 15px 15px;
+	border-top: 1px solid #DDD;
+	-webkit-border-radius: 0 0 6px 6px;
+	-moz-border-radius: 0 0 6px 6px;
+	border-radius: 0 0 6px 6px;
+	zoom: 1;
+	margin-bottom: 0;
+	height: -34px;
+}
+#bento_message_html {
+	margin-top: 7px;
+}
+label {
+	float:none;
+	text-align: left;
+	font-weight:bold;
+	margin: 5px 0 3px 0;
+	display: block;
+	width: 100%;
+}
+input, textarea, select, .uneditable-input {
+	display: block;
+}
+div.content div.buttons, div.content span.buttons, span.content div.buttons, span.content span.buttons {
+	margin-left: 0px;
+}

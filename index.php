@@ -1,0 +1,1 @@
+<?php include $_SERVER['DOCUMENT_ROOT'] . "/bento/bento/php/manual/bento.php";?>

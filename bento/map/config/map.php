@@ -1,0 +1,33 @@
+<?php
+{
+	"version":"1.0",
+	"state":"installed",
+ 	"public":{
+		"canvas":"map_canvas",
+		"lookup":false,
+		"mapMarkers":[],
+		"mapCircles":[],
+		"mapRectangles":[],
+		"mapWidth":400,
+		"mapHeight":400,
+		"mapBackgroundColor":"",
+		"apiSensor":false,
+		"mapDraggable":true,
+		"mapType":"ROADMAP",
+		"zoomLevel":6,
+		"showDefaultUI":true,
+		"showMapTypeControl":true,
+		"showNavigationControl":true,
+		"navigationControlStyle":"ANDROID",
+		"mapTypeControlStyle":"DEFAULT",
+		"showScaleControl":true,
+		"showStreetViewControl":true,
+		"enableScrollwheelZoom":true,
+		"enableDoubleClickZoom":true,
+		"infoWindowBehaviour":"MULTIPLE",
+		"infoWindowTrigger":"CLICK",
+		"mapTypeControlOptions":{},
+		"navigationControlOptions":{}
+	}
+}
+?>
